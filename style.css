@@ -1,7 +1,16 @@
-body {
+.indexCSS {
     background-color: lightblue;
 }
 
 h1 {
     color: rgb(9, 80, 211);
+}
+
+.aboutCSS {
+    background-color: darkseagreen;
+}
+
+.aboutheader {
+    color: darkgreen;
+    text-align: center;
 }
