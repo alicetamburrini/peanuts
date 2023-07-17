@@ -89,3 +89,13 @@ ul {
 p{
     font-size: 20pt;
 }
+
+.piano{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+img{
+    margin: 0;
+}
