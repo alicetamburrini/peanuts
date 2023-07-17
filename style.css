@@ -51,18 +51,9 @@ ul {
     display: table;
   }
 
-.row {
+/* .row {
     padding: 8em;
-}
-.row1{
-    padding-left: 15em;
-}
-  .column1 {
-    float: left;
-    width: 42%;
-    padding: 5px;
-  }
-
+} */
 
 .middle {
     text-align: center;
@@ -96,6 +87,13 @@ p{
     flex-direction: row;
 }
 
-img{
+.piano img{
+    display: block;
     margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.leftspace{
+    padding-right: 2em;
 }
