@@ -2,6 +2,11 @@
     background-color: lightblue;
 }
 
+.lifeCSS {
+    background-color: khaki; 
+    text-align: center;
+}
+
 h1 {
     color: rgb(9, 80, 211);
     font-size: 30pt;
@@ -29,6 +34,7 @@ h1 {
 .list {
     display: flex;
     justify-content: center;
+    text-align: left;
 }
 
 ul {
@@ -102,4 +108,8 @@ p{
 
 .leftspace{
     padding-right: 2em;
+}
+
+.lifeheader{
+    color: darkorange;
 }
