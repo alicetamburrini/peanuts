@@ -75,6 +75,10 @@ ul {
     border-radius: 20pt;
 }
 
+.lifeCSS img {
+    border-radius: 60pt;
+}
+
 .topnav {
     background-color: white;
     overflow: hidden;
@@ -87,6 +91,11 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px; 
+}
+
+.topnav a:hover {
+    background-color: rgb(168, 168, 168);
+    color: black;
 }
 
 p{
@@ -113,3 +122,4 @@ p{
 .lifeheader{
     color: darkorange;
 }
+
