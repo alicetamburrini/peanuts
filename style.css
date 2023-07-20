@@ -119,7 +119,53 @@ p{
     padding-right: 2em;
 }
 
-.lifeheader{
+.lifeheader {
     color: darkorange;
+
 }
 
+.lifeCSS hr {
+    background-color: darkorange !important;
+}
+
+.indexCSS hr {
+    background-color: rgb(9, 80, 211);
+}
+
+.aboutCSS hr {
+    background-color: darkgreen;
+}
+
+@media screen and (max-device-width: 60em) {
+    .lifeCSS {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .indexCSS {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .aboutCSS {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 669px;
+    }
+
+    hr{
+        width: 700px;
+    }
+}
