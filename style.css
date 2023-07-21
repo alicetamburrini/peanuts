@@ -1,3 +1,7 @@
+img {
+    object-fit: cover;
+}
+
 .indexCSS {
     background-color: lightblue;
 }
@@ -144,6 +148,10 @@ p{
 
 .aboutCSS hr {
     background-color: darkgreen;
+}
+
+.dreams.CSS hr {
+    background-color: darkorchid;
 }
 
 @media screen and (max-device-width: 60em) {
